@@ -1,0 +1,32 @@
+
+![[Pasted image 20251226205241.png]]
+
+![[Pasted image 20251226205419.png]]
+
+- Emulating apt3 
+- Step 1 - Before access preperation.
+- Step 2 - TTPs move or priv escalate go for new and repeat 
+- Step 3 - As APT3 exfiltrate data as APT3 only takes data like a spy.
+
+
+ 
+**A Framework, A Methology*** - A way to work, a sequence of steps,how to do it, a structure a shared languege how to map the topic (not accurate maybe later i will fix it)
+- ![[Pasted image 20251226205856.png]]
+- **CKC Framework**
+- not fully acurate for red team its linear but in red team u go on circle like something didnt secceed and u trying again what actions on objectives mean ? lateral movement or priv escalate?
+- ![[Pasted image 20251226210129.png]]
+- Some questions got answered but still linear 
+![[Pasted image 20251226210159.png]]
+**MITRE ATT&CK FrameWork**
+ - mitre att&ck will not include something that didnt used by threat actor in the wild 
+ - organizations trying to get coverage of all the ttps in mitre - Theoreticly its possible but its tons of money and alerts etc and new tecniques arent included.
+ - most accepted framework outthere
+![[Pasted image 20251226211832.png]]
+- publicly available purple teaming framework in github
+![[Pasted image 20251226211930.png]]
+![[Pasted image 20251226212549.png]]
+- Loopy one not linear as the CKC or UKC 
+- Threat intellegence - u r blind so intellegence is important 
+- Planning - TTPs from the intel to a plan data collection would be  phase 3 
+- Execution - doing the plan
+- Closure - sum the exercise with the blue team
