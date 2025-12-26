@@ -1,0 +1,1 @@
+# SEC565-Planning-Adversary-Emulation-Threat-Intellegence-Summaries
