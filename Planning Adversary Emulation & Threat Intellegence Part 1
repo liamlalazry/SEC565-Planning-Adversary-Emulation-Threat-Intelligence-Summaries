@@ -1,0 +1,59 @@
+## First Step  - Vulnerability Scanning 
+
+Auto scanning againt assets that often lead to known vulnerabilities, low hanging fruits 
+low effort needed tools are the way
+now we only intersting on the tech
+![[Pasted image 20251226154935.png]]
+
+## Second Step - Vulnerability Assessments 
+
+- Validate the results if they are true positives or false ones by trying them manualy
+- 30% tools and 70% manual testing
+- ![[Pasted image 20251226155325.png]]
+## Third Step - Penetration Testing
+- Manual testing trying to exploit thing 
+- specific scope 
+- reporting all the exploitable vulnerabilities
+- ![[Pasted image 20251226155842.png]]
+ 
+## Fourth Step - Red Team
+- using TTPs to train the blue team detection and response, ensuring all works 
+ - after some time u start to stress them up and see how they are responding.
+ - when there is something new new techniques etc
+ ![[Pasted image 20251226160539.png]]
+ 
+ ![[Pasted image 20251226160848.png]]
+
+-  In a way everyone in organization are the blue team as even normal employee has to know about phishing and has to report to SOC so every one is a part.
+![[Pasted image 20251226161130.png]]
+- Collabretion between blue and red teams its the meeting afterwards or before 
+- they tell the ttp and the blue team going to try the expected result.
+- example - phishing with encrypted mal data the blue team expect it to be blocked by a defense and the red team checks if true and the red team help to fix it. 
+- as the attackers there it easier to understand what happend.
+- ![[Pasted image 20251226161637.png]]
+- test sec, help the organization to understand how to response 
+- ![[Pasted image 20251226161822.png]]
+- emulating an attack by a real adverary
+- ![[Pasted image 20251226161946.png]]
+- **Emulation** - Using TTPs only those that adversary u emulating used in the past even if u got a better ways of doing it based on scanning etc - **u test againt that threat actor and u will use his techniques! **
+- **Simulation** - Staging a real attack a new one use any technique u want
+![[Pasted image 20251226162640.png]]![[Pasted image 20251226162735.png]]
+
+- **In penetration test u have a limited scope in a pure red team everything is in scope  (till bussiness) as in real life no body care about your bussiness**
+
+![[Pasted image 20251226163117.png]]
+![[Pasted image 20251226163310.png]]
+
+-  **Confirmation Bias** - think u right and u going to go to prove it and ignore any other opition or something tells else. 
+- **Self-Serving Bias** - everything worked cause of me and it failed due to him...- ![[Pasted image 20251226203321.png]]
+- Recording and documenting everything with screenshots and timestamps
+![[Pasted image 20251226203705.png]]
+
+- Trust & verify customers dont know and lie a lot.
+- **Report:**
+- Time to detect 
+- Time to escalate 
+- Time to eradicate
+![[Pasted image 20251226203947.png]]
+- Getting Caught its ok u actually want it to test the blue team response but u want it **in your own terms !!!** 
+- know the tools the footprint they making the risks, be stealth then make an execute of assembly and make them detect u. 
