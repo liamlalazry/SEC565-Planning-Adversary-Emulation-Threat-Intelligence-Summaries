@@ -1,0 +1,99 @@
+![[Pasted image 20251227121738.png]]
+
+![[Pasted image 20251227172655.png]]
+![[Pasted image 20251227173528.png]]
+
+Skills that can help
+- hands on a C# application and a decompiling can give credentials 
+- Cloud knowledge can be asset now days more then ever
+- Best red teams has the know of how detect and response works.
+- when using the old quserAPC api u are going to avoid event id 8 and u would go off the radar
+![[Pasted image 20251227174143.png]]
+
+- U are going to make mistakes ! use and help ur teamates 
+- Leadership is needed especialy when doing a risk action or complicated one on an object
+- ![[Pasted image 20251227174523.png]]
+- A lot of the Flow in Red Teaming is inspired by the flow in software dev
+- A To-Do | In-Progress | Finished   Table can help to the team sync and control the flow of the exercise.
+- The Table especially good when working internationaly with different time zones.
+![[Pasted image 20251227175320.png]]
+-   A note sharing app to share info with the team is important make sure your data is not stored by third party.
+![[Pasted image 20251227175511.png]]
+- The only 1 acceptable TImezone - GMT/UTC/Zulu cause it is universal and not leaking the timezone of the red teamers as it is not affected by the daylight.
+![[Pasted image 20251227175755.png]]
+Gather more info about the network,infrastructre,organization,software etc...
+**Active-Reconnaisence** - Touching systems that owned by the organization.
+for example: nmap,phishing 
+-  Tip for phishing: make a trust relationship with the target can be with a burner email a lot of time they will give their signature that u can use later on in the phishing.
+**Passive-Reconnaisence** - Touching systems that arent owned by the organization.
+for example Shodan Tool is passive when using shodan shodan did the active part itself.
+![[Pasted image 20251227180419.png]]
+![[Pasted image 20251227180503.png]]
+![[Pasted image 20251227180537.png]]
+- The Instructor reccommended TruffleHog as an unexpected useful  tool his favorite.
+![[Pasted image 20251227181420.png]]
+- Spider Target = Burp suite Search on webs
+- Shodan & Censys
+- certificate transperancy - can give internal host 
+- ![[Pasted image 20251227181831.png]]
+![[Pasted image 20251227181852.png]]
+
+- Instructor used Spiderfoot
+![[Pasted image 20251227182116.png]]
+![[Pasted image 20251227182242.png]]
+![[Pasted image 20251227182559.png]]![[Pasted image 20251227182637.png]]
+- A lot of breaches has passwords publishing publicly on the dark web it is much easiier to find those.
+![[Pasted image 20251227182935.png]]
+- There is a microsoft policy defined to lock if number of failed auth tries is reached (1-999,0)
+- There is a microsoft policy for the time of the lock (1-99,999 min)
+- There is a microsoft policy for the time before start counting failed auth tries again after a break. (1-99,999)
+![[Pasted image 20251227183722.png]]
+
+![[Pasted image 20251227183904.png]]
+![[Pasted image 20251227183953.png]]
+- Net accounts command helps to see this account policy data
+- ![[Pasted image 20251227232349.png]]
+![[Pasted image 20251227232424.png]]
+![[Pasted image 20251227232832.png]]
+- Using Password from password leak to an organization
+- The Problem with that is these breaches leakage are old abd even if the user repeated the password it probably changed long ago.
+-![[Pasted image 20251227233108.png]]
+
+![[Pasted image 20251227233256.png]]
+
+- can give domain name 
+- Team Filtration Tool for password spraying and user discovery
+- ![[Pasted image 20251227233528.png]]
+- Daft hack Msf spray office 365 spray and ADFS spray
+- Be careful as it more monitored and can make alerts before u want it to do it.
+![[Pasted image 20251227233945.png]]
+- Azure careful when u log on from different location they putting a restricted eye on u.
+- Azure putting impossible travel alert if u log in from china and 10 min from usa.
+- Azure allows u provide a list of bad passwords to restrict users.
+- **Still can use rotating IP Address for Password Spraying** 
+- Fireprox Tool - proxy to AWS getaway everytime u brute force the way in it going to rotate your ip with another ip in amazon (probably in same location to avoid the impossible travel alert)
+![[Pasted image 20251227234556.png]]
+
+- Most of the time the CEO CTO,Administrators often bypass that policies and it is a weakness for password brute forcing or spraying.
+- Play around these policies without getting caught.
+![[Pasted image 20251227234722.png]]
+- Can also be done as a job request like hey i have skills with the systems sql react node js is that what u are using in the organization?
+- ![[Pasted image 20251227235136.png]]
+-  A web to make Social Engineering
+![[Pasted image 20251227235213.png]]
+- First is building trust 
+- combining social engineering at the same time send email with in-person call 
+- email - phone call for office update througth a link is more convincing.
+- ![[Pasted image 20251227235449.png]]
+- ![[Pasted image 20251227235528.png]]
+- Must Apply TLS certs to avoid browser warnings 
+- Lets Encrypt is free 
+![[Pasted image 20251227235631.png]]
+- ![[Pasted image 20251227235715.png]]
+- ![[Pasted image 20251227235751.png]]
+- Push - A push notification to the phone yes/no or yes/no + number compare
+![[Pasted image 20251227235912.png]]
+- MiTM - proxy auth request to the legit web force the user to do the MFA and get his session cookie with cookie editor or something else and then it already MFA authenticated.
+![[Pasted image 20251228000419.png]]
+- Vishing =  Voice Phishng 
+- A lot of times it much more convincing 
