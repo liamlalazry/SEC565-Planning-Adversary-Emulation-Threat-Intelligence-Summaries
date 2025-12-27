@@ -1,0 +1,45 @@
+![[Pasted image 20251227103815.png]]
+
+![[Pasted image 20251227103904.png]]
+- **Triggers** - what triggered your Red Team exercise? why we doing it ?the why we do it leads to accurate how to do it.
+![[Pasted image 20251227104247.png]]
+- **Objectives** - for PT u want to become a Domain admin but for Red Team its not the case 
+- In red team u ask your client what scared u most ? for financial its not domain admin of course it scares alot too but its that some one would be able to start money transfering feom account A to B, Hospitals afraid of data leakage of clients
+![[Pasted image 20251227105041.png]]
+- In pure red team exercise there is no scope but it can be depends on the objective if our objective only related to few aspects we would exercise on them and we will not touch the rest of the network.
+![[Pasted image 20251227105515.png]]
+- Based on Threat Intel and client requests we making the scenerio of the exercise
+- ![[Pasted image 20251227110023.png]]
+- Mostly like an adversary u start from outside 
+![[Pasted image 20251227110252.png]]
+- and if u can't make initial access u make an assume bridge with your client which means - what can an attacker do after they get an access and it is helps with understanding the damage an insider threat can do in addition to the what if they would success where we failed question .
+- Start with an initial OS and account like a new hire.
+- ![[Pasted image 20251227111406.png]]
+- How often red team exercise will be performed?
+- ![[Pasted image 20251227111530.png]]
+![[Pasted image 20251227111831.png]]
+- **Trusted Agents/White Cell** - people who knows that a red team exercising as we dont want the defenders to change their behavior.
+- Approving all changes and the exercise itself.
+- Approving all the Exploits and if there is an impact or denial of systems answering if to do or not.
+- Who we ask about their fears like who we ask which adverssary to emulate the attack on.
+- Who we updating our actions with.
+- fixing the gaps found
+- people who their role makes they to know to make less impact on systems
+
+
+![[Pasted image 20251227113505.png]]
+![[Pasted image 20251227114653.png]]
+- responsibility relationships and guidelines between all participants a legal file
+![[Pasted image 20251227114924.png]]
+
+- make a communication plan and service to communicate like a private whatsapp group
+- sync of compremise and stages of the exercises start & end 
+![[Pasted image 20251227115853.png]]
+![[Pasted image 20251227120113.png]]
+- When u stuck the blue team stopped the attack and there is still time it become a PT and there is no stealth anymore the blue team is knowing about it and dont trying to stop the PT.
+![[Pasted image 20251227120642.png]]
+What if the Red-team didnt got caught even after making the alerts ? -  if The Blue team never caught even after making alerts u start using louder and louder TTPs and makes more and more loud alerts till they react if they dont react the Organization Failed. 
+![[Pasted image 20251227121519.png]]
+- If noticed An adversary in the network or ilegal activity noticed the exercise stops immediatly and a report will be made to the white cell.
+
+![[Pasted image 20251227121512.png]]
