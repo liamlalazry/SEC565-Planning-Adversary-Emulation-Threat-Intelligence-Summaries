@@ -1,0 +1,35 @@
+![[Pasted image 20251226213014.png]]
+
+![[Pasted image 20251226213040.png]]
+
+- Understand the Target Organization - email addresses find the format to send phishing emails. Hunter.io - helps find emails formating for phishing attacks 
+- linkedin searching based on names 
+- Going to the organization web for news that can be used for a phishing attack 
+- Going to the organization web for Job advertises - Sometimes its Discloure software they using if needed fullstack with sql...
+![[Pasted image 20251226213704.png]]
+- Gather all the data u can find -> take the relevant and use with ttps etc
+![[Pasted image 20251226213806.png]]
+
+- **Hash** - Malware that didnt changed is easy to detect by hash an hacker would change the malware to avoid but its still easy...
+- **Ip-Address** - if the ip known malicious it easy to detect but also easy to bypass this detection
+- **Domain names** - easy to signature domain names relativly easy to change the domain name 
+- **Network & Host artifacts** -  anything that makes traffic or droped to disk using bloodhound to gather data from AD and visualize it and it makes a lot of network traffic like smb and ldap and it going to drop json on disk u could bypass the signatures  by making a changes but u need to do it everywhere and its annoying.
+- changing the tool intirely to bypass and u dont have the virtualization anymore 
+- **Blocking the ttps by themself** - creds dumping - in every single threat actor playbook - if u as  blue team and if u detect it the lssass process handle it much harder to execute and very annoying.
+- ![[Pasted image 20251226214926.png]]
+![[Pasted image 20251227101223.png]]**TRAM** - Feed him report and he will extract the ttps that used there - for emulation red team operation of an adversary who uses specific ttps.
+
+![[Pasted image 20251227101503.png]]
+- The Navigator helps for the reporting to tell about the ttps used in the exercise in a clear mice diagram
+
+- In Emulation of adversary like hafnium in your report make an adverrsary profile
+- ![[Pasted image 20251227101936.png]]
+## Organization & Planning
+- After Intel we organizing all to a plan with a technical flow
+- Initial Access 
+- Discovery 
+- Privilege Escalation
+- Credential Access 
+- Persistence
+- Lateral Movement 
+
