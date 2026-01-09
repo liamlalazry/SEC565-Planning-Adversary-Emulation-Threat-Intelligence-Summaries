@@ -1,0 +1,29 @@
+![[Pasted image 20260109150326.png]]
+ c3 - custom c2 technique to avoid detection.
+  for example: using instagram api to pass data to the c2 that listens to instagram apin which makes it looks like a normal data to instgram instead to a weird c2 ip.
+  for example: using csgo in order to sent c2 traffic  
+![[Pasted image 20260109151432.png]]![[Pasted image 20260109203105.png]]
+![[Pasted image 20260109203152.png]]
+![[Pasted image 20260109203321.png]]![[Pasted image 20260109203443.png]]
+- generally allowed outbound traffic
+- rarely checked deeply
+- - A -AAAA slowly but harder to investigate.
+- -TXT gives a lot of room for data for faster way to move data
+- ![[Pasted image 20260109203733.png]]
+
+![[Pasted image 20260109203849.png]]
+![[Pasted image 20260109204908.png]]
+
+![[Pasted image 20260109215426.png]]
+**Tier 3** - Interactive - always open for communication most likely to be burned of
+**Tier 2** - Short Haul - open for communication then goes to sleep for minutes hours...
+**Tier 1** - Long Haul - safety life line - slow one check in a 24 hour or longer an unused communication channel  like if tier 1 & 2 using http and https so it will use dns used when 1 & 2 down.
+![[Pasted image 20260109215654.png]]
+![[Pasted image 20260109215942.png]]
+![[Pasted image 20260109220020.png]]
+- Implanets time till they report back with results.
+- ![[Pasted image 20260109220107.png]]
+- easy to fingerprint a c2 traffic that sent every 5 minutes 
+- Jitter help to random each check in a bit to make harder to detect from networking prespective
+- ![[Pasted image 20260109220242.png]]
+[[Covenant Part 8]]
