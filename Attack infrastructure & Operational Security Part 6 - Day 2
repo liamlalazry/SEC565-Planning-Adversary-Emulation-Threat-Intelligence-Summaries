@@ -1,0 +1,43 @@
+managing reverse shell - C2 
+**C2**
+![[Pasted image 20260106212227.png]]
+**Open Source C2** 
+- open source is open also to the defence team and they can prepare - needed to be modified
+- Easy to troubleshoot and understand 
+- no support
+![[Pasted image 20260106212657.png]]
+- so long there so its has a lot of signatures out there so its rarely used thes days
+![[Pasted image 20260106212827.png]]
+- Based on Powershell
+- Open Source 
+- Stopped the development after proved their point till bc security maintained it they now put there more langueges and made it much better.
+- ![[Pasted image 20260106213123.png]]
+- payloads needs python interpreter inside the payload 
+- detection around these langueges are harder thses days as these are off center langueges 
+![[Pasted image 20260106213516.png]]
+- DNS canary - making a fake decoy  domain inside of compilation of an executable and if u monitor that website u will see that IR start taking control over.
+- Activly maintained
+![[Pasted image 20260109143100.png]]
+- Not maintained
+- Using Underthe Hood method for communication
+- JWT for Auth making a secure connections 
+- changing the agent JA3 hash dynamically 
+- ![[Pasted image 20260109143629.png]]
+- development not maintained 
+- written in c# 
+- empire in c#
+**put in mind about Havoc & Mythic** 
+![[Pasted image 20260109143957.png]]
+
+![[Pasted image 20260109144729.png]]
+![[Pasted image 20260109144907.png]]
+- exe from memory 
+- ![[Pasted image 20260109144949.png]]
+
+
+![[Pasted image 20260109145200.png]]
+
+![[Pasted image 20260109145238.png]]
+https://docs.google.com/spreadsheets/d/1b4mUxa6cDQuTV2BPC6aA-GR4zGZi0ooPYtBe4IgPsSc/edit?gid=0#gid=0 = Matrix C2 excel document comparing all C2
+![[Pasted image 20260109145742.png]]![[Pasted image 20260109145936.png
+[[Command & Control breakDown Part 7]]
