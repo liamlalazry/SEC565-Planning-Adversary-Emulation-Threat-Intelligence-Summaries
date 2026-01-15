@@ -1,0 +1,21 @@
+
+![[Pasted image 20260109223504.png]]
+
+- ![[Pasted image 20260109224653.png]]
+- - Usessl = True makes HTTPS with valid certificate 
+- ![[Pasted image 20260109224721.png]]
+- listeners can be customized can make astronger encryption for example
+- ![[Pasted image 20260109223731.png]]
+- 
+- ![[Pasted image 20260109224837.png]]
+- ![[Pasted image 20260109224905.png]]
+- ![[Pasted image 20260109224913.png]]
+-  Tasks can have a tools inside the agent but the bundle function are outdated so we will use our own assemblies and scripts so we will not need them we will have a cli and gui in the grunt tab 
+- ![[Pasted image 20260109225033.png]]
+- ![[Pasted image 20260109225047.png]]
+- the agents dont have to call to the local  c2 they can communicate with themself (smb dns for example )then 1 to the c2 server.
+- ![[Pasted image 20260109225156.png]]
+- the agent dind and send creds he identify
+- ![[Pasted image 20260109225237.png]]
+- very basic IoC tracking.
+- [[Infrastructure Red Teaming Part 9]] 
