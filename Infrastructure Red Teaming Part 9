@@ -1,0 +1,27 @@
+![[Pasted image 20260109225610.png]]
+![[Pasted image 20260110120129.png]]
+- redirectors before hosts 
+- using a lot of protocols to communicate with the C2
+- ![[Pasted image 20260110120227.png]]
+- ![[Pasted image 20260110120339.png]]
+- redirector - protecting the c2 server we are going to put a server infront of the c2 and harden this server trafiic.
+![[Pasted image 20260110120445.png]]
+- An Employee wiil going to visit a domain not an ip so using a plain ip not tied to a domain is a bad idea.
+- register the domain long before the exercise so the proxy wouldnt block it.
+- if u dont know the proxy that the company uses u should register in all proxies
+- if u choose health or finance category of ur domain the company cant inspect your data so its preferable if possible.
+- ![[Pasted image 20260110121119.png]]
+- PlayFree - not gonna be health or finance category...
+- try not to get name with already known as malicious 
+![[Pasted image 20260110121310.png]]
+![[Pasted image 20260110121349.png]]
+![[Pasted image 20260110121702.png]]be sure that ur provider are allowing red teaming and penetration testing.
+- cloud providers trusted mostly aws and azure getting u in bypassing the proxy.
+- ![[Pasted image 20260110121930.png]]
+- ![[Pasted image 20260110122129.png]]
+![[Pasted image 20260110122222.png]]
+send some emails with the target ro gain trust and make sure ur emails will not end in spam folder.
+![[Pasted image 20260110123148.png]]![[Pasted image 20260115200930.png]]![[Pasted image 20260115200952.png]] ![[Pasted image 20260115201114.png]]
+![[Pasted image 20260115201200.png]]
+![[Pasted image 20260115201557.png]]when using a office365 u can use the .microsoft for faking a microsoft security assist or something like that as u get it with the domain.
+![[Pasted image 20260115202001.png]]
