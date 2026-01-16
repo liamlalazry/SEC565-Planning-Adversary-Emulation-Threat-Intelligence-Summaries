@@ -1,0 +1,44 @@
+![[Pasted image 20260115212955.png]]
+![[Pasted image 20260115213059.png]]
+- can even use icmp for data tunneling with icmp transfer methods 
+![[Pasted image 20260115213218.png]]
+![[Pasted image 20260115213315.png]]
+- closed network - how to route data within a closed network? 
+-  - C2 can use smb connections or raw tcp connection to transfer the data from 1 computer to another in a closed network.
+- ![[Pasted image 20260115213909.png]]
+- 
+- ![[Pasted image 20260115221406.png]]
+- ![[Pasted image 20260115221437.png]]
+- **![[Pasted image 20260115225445.png]]**
+- **ssh -L** {Port u want to outbound from ur computer} {your ip address} {port u want to connect to the other computer with (passing data to the port before connection)} {user on the remote computer}@{ip of remote computer} **ssh is in the middle to secure and connect it all**
+פה מה שקרה זה שכתובת העבודה ניסתה להתחבר אל כתובת הבית ושינתה את הפורט שהיא יוצאת דרכו להיות בתמונה 8181 ובטרמינל 1102 והם יתחברו אל פורט אחר ביעד בתמונה 3389 ובטרמינל 3306 וכך עקפו את חסימת ה FW שחוסמת יציאה של פורט 3389.
+- ![[Pasted image 20260115233926.png]]
+- **ssh -D 1234 kali@ip
+- **ssh -D** {the port u are going to pass the data to } {your remote user u want to connect }@{your remote ip u want to connect}  then the port 
+- So when i made in the remote  a python server and used the  **ssh -D 1234 kali@10.0.2.15**
+i connected to the kali and each data i sent moved to kali with port 1234 to 22 to terminal so when i curl the python localhost it used it and gave me the html data.
+פה מה שקורה זה ניווט של כל היציאות אל פורט 1234 ומשם הוא מגיע לKALI שם מבוצע למשל כניסה לאתר בפורט 80 והתוצאה חוזרת אלינו (צינור מאובטח)
+בתמונה ניתן לראות שביעד יש שרת פייתון והלקוח התחבר ליעד עם פורט 1234 והשתמש בשרת דרך curl http:localhost:8000 הפקודה הגיעה ליעד בוצעה עליו והחזירה תשובה לשרת הלקוח.
+
+![[Pasted image 20260116000123.png]]
+
+![[Pasted image 20260116000541.png]]
+**ssh -R 1234:localhost:8000 kali@ip**
+בעצם הפקודה גורמת לשרת היעד KALI ליצור חיבור עם שרת הלקוח המקור( או כל שרת אחר שנרצה אבל הרעיון זה שהיעד דופק בדלת ללקוח ןלא הלקוח ליעד) שבו רצה הפקודה במקרה הזה דרך פורט 8000 כשהתעבורה עברה עם פורט 1234 עד אלינו. 
+בתמונה שרת פייתון עלה על מחשב המקור הלקוח בפורט 8000 והיעד ניגש דרך localhost:1234 לשרת פייתון שהופץ.
+![[Pasted image 20260116003119.png
+![[Pasted image 20260116121938.png]]
+
+- Only TCP traffic 
+- socks4 not supporting dns []socks5 does 
+- ![[Pasted image 20260116224426.png]]
+- ![[Pasted image 20260116224520.png]]
+- ![[Pasted image 20260116224552.png]]
+- ![[Pasted image 20260116224609.png]]
+- ![[Pasted image 20260116224701.png]]
+- ![[Pasted image 20260116224707.png]]
+- ![[Pasted image 20260116224740.png]]
+- support ipv6
+- ![[Pasted image 20260116224801.png]]
+- ![[Pasted image 20260116224823.png]]
+- Windows Tool
