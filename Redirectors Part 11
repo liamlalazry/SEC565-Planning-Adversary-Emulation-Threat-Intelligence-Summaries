@@ -1,0 +1,23 @@
+![[Pasted image 20260117003807.png]]
+![[Pasted image 20260117123806.png]]
+- allowed for udp traffic as well
+- long houl using dns for callback so we need it to forward to the c2 with socat 
+- ![[Pasted image 20260117124155.png]]
+- the sysctl configure linux to use your iptables configurations 
+- iptable is not persistance means they flush out when rebooting 
+![[Pasted image 20260117125348.png]]
+![[Pasted image 20260117125457.png]]
+![[Pasted image 20260117125543.png]]
+![[Pasted image 20260117125717.png]]Apache has a mod_rewrite option lets u rewrite and redirect packages under specific rules
+u can send data to google.com and based on the user agent used to send it as a request also to tour c2 to fetch data from there as the user-agent triggered it while other requests would redirect to innocent webs
+![[Pasted image 20260117160000.png]]
+![[Pasted image 20260117160125.png]]
+![[Pasted image 20260117160243.png]]
+![[Pasted image 20260117160351.png]]
+![[Pasted image 20260117160837.png]]
+On a CDN where c2.com & notc2.com are being hosted  even when u are going to notc2 in the url if the host field in the header specify c2.com it will go to the cdn environment then redirect u to the c2.com host !
+- Now aws and azure not letting u as if there is a mismatch they are blocking
+- small ones not always blocking 
+- ![[Pasted image 20260117161219.png]]
+- ![[Pasted image 20260117161307.png]]
+- ![[Pasted image 20260117161555.png]]
