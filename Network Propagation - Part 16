@@ -1,0 +1,72 @@
+![[Pasted image 20260123205656.png]]![[Pasted image 20260123205817.png]]
+![[Pasted image 20260124202227.png]]
+![[Pasted image 20260124202318.png]]
+![[Pasted image 20260124202446.png]]
+![[Pasted image 20260124202616.png]]![[Pasted image 20260124202718.png]]
+![[Pasted image 20260124202937.png]]![[Pasted image 20260124203006.png]]
+![[Pasted image 20260124203041.png]]
+![[Pasted image 20260124203159.png]]
+![[Pasted image 20260124203219.png]]
+- Not recommend for regular use only for situational use.
+- ![[Pasted image 20260124203456.png]]
+- since sysmon all the wmic got id and logs. 
+- ![[Pasted image 20260124203755.png]]
+- ![[Pasted image 20260124203833.png]]
+- ![[Pasted image 20260124203905.png]]
+- **PowerView is extreamly powerful and has a smaller foothold than bloodhound**
+- ![[Pasted image 20260124204008.png]]
+- ![[Pasted image 20260124204226.png]]
+- ![[Pasted image 20260124214024.png]]
+- When Path isnt queted with "" windows trying to execute the file first in c: then in Program files then in next one etc etc we can take advantage of that by placing the file it looking for in earlier directory such as c: and with this tecnique we can run payloads with system privileges...
+- ![[Pasted image 20260124214416.png]]
+- In the last step it where its gets intresting it can be used to manipulate a system to run your malicious dll into the memory and make an exploit.
+- ![[Pasted image 20260124214743.png]]
+- ![[Pasted image 20260124214853.png]]
+- low - for services network service sql service 
+- medium - normal user integrity 
+- high -  program exe as admin
+- system - 
+- **there are uac bypasses this isnt by microsoft and they dont take responsability**
+- ![[Pasted image 20260124215121.png]]
+- **As it is Open Sourced its signatured so change it before using or u will be detected**
+- ![[Pasted image 20260124215315.png]]
+- InvokePrivEscCheck -  Even Better than PowerUp or SharpUP 
+- - ![[Pasted image 20260124223334.png]]
+- ![[Pasted image 20260124223414.png]]
+- ![[Pasted image 20260124223516.png]]
+- ![[Pasted image 20260124223543.png]]
+- Finding Creds:
+- ![[Pasted image 20260124224427.png]]
+- kiosk machines a lot of times has auto log on which says creds are in registry.
+- ![[Pasted image 20260124224610.png]]
+- keylogging can be with software or hardware such as usb
+- creds dumping needs at least local admin
+- Mitm more familiar with switch and router attacks but can be done in red teaming engagment.
+- leveraging passwd manager means using a weakness or vuln on the passwd managing program to access the passwords.
+- ![[Pasted image 20260124225045.png]]
+- ![[Pasted image 20260124231406.png]]
+- might have a file with base64 encoding password
+- ![[Pasted image 20260124233448.png]]
+- u a lot of time hardly know what system the password belong too.
+- ![[Pasted image 20260124233554.png]]
+- ![[Pasted image 20260124233755.png]]
+- ![[Pasted image 20260124234122.png]]
+- Might be able to decrypt the password in cyberark due to vulnerabilities inside the software \
+- if u have domain admin u can compromise the secret server as well
+- ![[Pasted image 20260124234359.png]]
+- with local admin privs 
+- for anything related to kerberous rubeos is better.
+- ![[Pasted image 20260124234524.png]]
+- if u got a Mitm u can sniff and get creds - not used a lot but worth noting if u are stuck.
+- ![[Pasted image 20260124234752.png]]
+- ntlmv1 has a lot rainbow tables so easyily decrypted 
+- ![[Pasted image 20260124234920.png]]
+
+- ![[Pasted image 20260124235234.png]] tool in linux 
+-  listen on the network for broadcast and going to answer broadcast and then it reciveces ntlm auth and gets the creds for brute forcing 
+- ![[Pasted image 20260124235441.png]]
+- ![[Pasted image 20260124235505.png]]
+- ![[Pasted image 20260124235531.png]]
+- ![[Pasted image 20260124235820.png]]
+- ![[Pasted image 20260124235858.png]]
+- ![[Pasted image 20260125000651.png]]
