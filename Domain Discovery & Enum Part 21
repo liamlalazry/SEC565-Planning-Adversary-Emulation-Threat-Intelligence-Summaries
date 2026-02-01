@@ -1,0 +1,82 @@
+ ![[Pasted image 20260130202349.png]]
+![[Pasted image 20260130202851.png]] ![[Pasted image 20260130203809.png]]
+service account with weak password is common weaknesses 
+watch out for noneypots accounts 
+know the password local policy and match 
+password spray is very noisy and should be used only as a last resolve.
+last loginb and password last set helps to identify honeypots.
+![[Pasted image 20260130204201.png]]
+![[Pasted image 20260130204351.png]]
+- Not installed in regular AD environment only on DCs so needed to be imported
+- reflectivly load it to memory by AD moudle on github - a binary blop that it is the ad moudle so it would be in the memory.
+- ![[Pasted image 20260130204639.png]]
+- Ad Module on steroids 
+- ![[Pasted image 20260130204707.png]]
+- PowerView In C# less reliable. (instructor using more by AD-Explorer)
+- ![[Pasted image 20260130204800.png]]
+- written in C that u have to drop it on the target
+![[Pasted image 20260130204910.png]]
+- Extremely Loud
+- if u going to use bloodhound use the dconly for being at least a bit stealth
+- ![[Pasted image 20260130205104.png]]
+- ![[Pasted image 20260130205120.png]]
+- Part of Sysinternals and signed by microsoft so it isnt considered as malware
+- snapshots are going to disk and ad explorer to disk 
+- if smb outbound is allowed u can execute it without downloading by querying sysinternals site
+- ![[Pasted image 20260130205416.png]]
+- ![[Pasted image 20260130205450.png]]
+- ![[Pasted image 20260130212552.png]]
+- [[Pasted image 20260130212635.png
+![[Pasted image 20260130212822.png]]
+![[Pasted image 20260130212851.png]]valhalla has weird time cause he never loged on and microsoft made it look like 1.1.1601
+![[Pasted image 20260130213102.png]]
+![[Pasted image 20260131112337.png]]
+
+- SPN - Service Principle Name 
+- SPN + User Acount = Service account 
+- they are a lot of times have weak passwd and high privileges and often forgotten and not updated the password.
+- can be honeypot - checking like regular account
+- ![[Pasted image 20260131112621.png]] 
+- when doing kerberousting some tools going like "keberousting all the things" if so u can land on honeypot service account so be careful not to fall for that.
+- ![[Pasted image 20260131113100.png]]
+![[Pasted image 20260131113449.png]]
+![[Pasted image 20260201221511.png]]
+![[Pasted image 20260201221736.png]]
+![[Pasted image 20260201221800.png]]![[Pasted image 20260201222148.png]]
+![[Pasted image 20260201222155.png]]
+![[Pasted image 20260201222231.png]]
+![[Pasted image 20260201222447.png]]
+- Poor details by the tools made for that except bloodhound & PowerView and that kind of tools.
+- ![[Pasted image 20260201222547.png]]
+- ![[Pasted image 20260201222801.png]]
+
+![[Pasted image 20260201222822.png]]
+![[Pasted image 20260201222930.png]]![[Pasted image 20260201223135.png]]
+functinal level - lowest version of a domain controllers 
+![[Pasted image 20260201223224.png]]
+![[Pasted image 20260201223259.png]]
+![[Pasted image 20260201223409.png]]
+![[Pasted image 20260201223440.png]]
+
+![[Pasted image 20260201223602.png]]
+- In AD there is a password policy container there fine granted policies can be defined
+- there is an order for diffrent password policies to be accepted
+- ![[Pasted image 20260201224154.png]]
+- regular user cant even see these but can be showen as domain admin for example
+- ![[Pasted image 20260201224301.png]]
+- if a fine-granted password policy attached to a user the msDS-PSOApplied property would be attached in the ad scheme!!!
+  and normal users can see this property so they cant se the settings of the granted-policy but can know who has it and who doesnt.
+- ![[Pasted image 20260201224550.png]]
+- ![[Pasted image 20260201224936.png]]
+- ![[Pasted image 20260201225145.png]]
+- ![[Pasted image 20260201225440.png]]
+- ![[Pasted image 20260201225530.png]]
+- ![[Pasted image 20260201225628.png]]
+- ![[Pasted image 20260201225720.png]]
+- ![[Pasted image 20260201225735.png]]
+- ![[Pasted image 20260201225820.png]]
+- ![[Pasted image 20260201225838.png]]
+- ![[Pasted image 20260201225952.png]]
+- ![[Pasted image 20260201230029.png]]
+- [[Privilege Hunting Part 22]]
+- 
