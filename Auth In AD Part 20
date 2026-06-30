@@ -1,0 +1,25 @@
+![[Pasted image 20260127201033.png]]
+![[Pasted image 20260127201050.png]]
+if u local auth u are auth against Security Account Manager (SAM db) 
+Domain auth u going to pass your keys to the kdc (the DC)
+unless your creds are cached if so u dont need to auth againt the dc.
+![[Pasted image 20260127212617.png]]![[Pasted image 20260127212831.png]]
+![[Pasted image 20260127213216.png]]![[Pasted image 20260127213223.png]]
+![[Pasted image 20260130171901.png]]
+![[Pasted image 20260130172136.png]]
+
+- because of the way kereberous works if u are in a diffrent timezone than the dc u can get error even if the password is correct 
+- in the req u sending the timestamp encrypted with the password and the dc can decrypt to get the timestamp if it in the 5 minutes range u will get the tgt.
+- after u geting a tgt u get the tgs u need 
+- **DisneyLand Demonstration** - ticket to enter disneyland then u access with tour ticket - when u trying to go for a coaster ride u see 5 hours line so u use the entry ticket to get a fast line ticket
+- using the tgt entry ticket to get resources tickets.
+- ![[Pasted image 20260130195104.png]]
+- ![[Pasted image 20260130195300.png]]
+- ![[Pasted image 20260130195439.png]]
+- ![[Pasted image 20260130201257.png]]
+- Notice that the target is the service here
+- ![[Pasted image 20260130201412.png]]
+- ![[Pasted image 20260130201541.png]]
+- ![[Pasted image 20260130201717.png]]
+- ![[Pasted image 20260130201916.png]]
+[[Domain Discovery & Enum Part 21]]

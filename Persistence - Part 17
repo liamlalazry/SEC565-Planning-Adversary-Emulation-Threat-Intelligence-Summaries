@@ -1,0 +1,15 @@
+![[Pasted image 20260125001157.png]]![[Pasted image 20260125225007.png]]![[Pasted image 20260125225242.png]]
+- Needs Local Admin Privileges
+- ![[Pasted image 20260125225406.png]]
+- if your service not sending back an api call like normal services does it going to shut down in 30 seconds.
+- there is 2 ways to overcome this problem 1 make a child process which will do the work and it would need to send an api callback or send the api callback like a normal service would the way of creating a child process is more noisy as regular services not acting like these.
+- if u dont have the knowledge or u are lazy to make your executable so use a packer tool like **ServifyThis**
+- ![[Pasted image 20260125230043.png]]
+- ![[Pasted image 20260125230620.png]]
+- ![[Pasted image 20260125230721.png]]
+- current user hive takes place when there is a collision with local machine hive
+- u can take clsid from the local machine hive then copy then to the local user hive then point to other dll and sense the local user hive is the ruling one at least for the user it will work.
+- ![[Pasted image 20260125231927.png]]
+- ![[Pasted image 20260125232325.png]]
+- ![[Pasted image 20260125232548.png]]
+- [[Active Directory Attacks & Lateral Movement Part 18 Day 4]]

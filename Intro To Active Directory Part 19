@@ -1,0 +1,14 @@
+![[Pasted image 20260127185129.png]]
+![[Pasted image 20260127185148.png]]![[Pasted image 20260127190736.png]]
+![[Pasted image 20260127190824.png]]
+a DB - except same components as in a db in the AD.
+![[Pasted image 20260127191659.png]]
+ ![[Pasted image 20260127192003.png]]
+ ![[Pasted image 20260127194809.png]]
+![[Pasted image 20260127195836.png]]
+ - Child and Parent is two ways every user can get resources from child to parent and vice verse 
+ - Domain Admins are in domain level but enterprise admin are in the forest level and they are mentioned in the main domains in the tree in this example above they are not gonna be defined in dev draconium domain.
+ - ![[Pasted image 20260127200042.png]]
+![[Pasted image 20260127200149.png]]
+![[Pasted image 20260127200403.png]]![[Pasted image 20260127200921.png]]
+[[Auth In AD Part 20]]

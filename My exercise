@@ -1,0 +1,93 @@
+## PreExercise - Planning & Defenitions
+### Definitions
+- **Triggers** -  What is our trigger - In my opinion our Trigger is to exercise the blue team and to check how good we did our job how hard is to compromise the network does all our tools are working ?
+- **Objectives** - The Goal for the exercise -  I believe we want to see if an adversary can denial the service of the devices in our network (can be with or without domain admin).
+- **Scope** - I believe all of the network ,no specific scope - pure red team exercise as long it dont affect "bussiness" all in scope.
+  From where to begin **Inside/outside & assume bridge** 
+- **Scenario,TTPs & Metrics** - After finish defining the scope & client request & Gathering Intel this part would be completed as well.
+- **Emulation/Simulation** - If asked to emulate an adversary learning his TTPs througth MITRE ATT@CK
+- Defining the scope of the exercise and  from where to begin ? (inside/outside & assume bridge)
+- **Frequency** - Once till said else
+- **Defining The Trusted Agents/White Cell** - People that knows about the exercise to make it efficient.
+  - Approving changes,approving or dening risk of denial of systems for the exercise
+  - Telling About their fears they want to tests / defining the target 
+  - Probably Head of SOC.
+  - Appling Zero-Knowledge Policy - The most important part is **not telling the blue team about the exercise.** 
+- **Time Estimation** - will be made when decided 
+- **Making a Communication Plan** - Private Group for the red teamers and trusted agents and & defining the during exercise reports - reporting when an objective or achivement reached when a timeline/stage is reached,when the exercise started/end. 
+- **Red-Team Stuck Case** - If the blue team makes the red team stuck in their place and they cant on go with missions and objectives the red team would stop and start to do a PT instead of being stealth and the blue team wouldnt stop them anymore.
+- **Blue Team Stuck case** - As the exercise goes on in some point the red team will start to make load noises of an attack to trigger the blue team if they arent triggered the noises would become louder and louder using more Louder TTPs and if still they wont be triggered The Organization failed. 
+
+- **Emergency Case** If noticed An adversary in the network or ilegal activity noticed the exercise stops immediatly and a report will be made to the white cell.
+## Threat Intelligence 
+- outdated software operating system 
+- Harder in our network as we are not a big company with linkein etc...
+
+## Planning & Organization 
+After getting all the Intel i will organize it to a technical flow 
+- Initial Access 
+- Discovery 
+- Privilege Escalation
+- Credential Access 
+- Persistence
+- Lateral Movement 
+etc
+## Execution
+**Way**
+using TTPs to train our blue team detection and response, ensuring all works 
+ - after some time u start to stress them up and see how they are responding are they kicking me off the network eventually?
+ -  We will do a simulation technique means we will use any tools i can get my hands on.
+ **C2 - Seems not possible but maybe with the tools we will enter entering a c2 framework too**
+ - If Using a C2 it is possible to use DNS Canary technique like described in the silver c2 framework.(a fake decoy domain to let the ir run after it and in that time monitoring an access to know the ir is awaked)
+ - optional C3 - Using a third party api (if there is in the network probably not ) to communicate with the c2 server for example the c2 client pulling from the api and the server is posting there all the traffic.
+ - For a C2 Framework we will use Empire or Covenant.
+ - We are going to use 3 tiers c2 communication interactive short haul and long haul
+ - C2 can use smb connections or raw tcp connection to transfer the data from 1 computer to another in a closed network.
+ - **Tunneling**
+ ## IoC
+ ![[Pasted image 20260117203529.png]] if using a github malware - compiling it yourself
+ domain name related to the actions taken
+ 
+ - ![[Pasted image 20260116224823.png]]
+### Reconnaissance
+
+### Active 
+- Much harder in our case all the things related to initial access are much harder.
+- Can use Vishing or phishing carefully 
+#### OSINT
+Much Harder here
+#### Information Disclosure
+Much harder here too 
+#### Vulnerability Scanning
+
+![[Pasted image 20251226154716.png]]
+- creds or with no creds
+- seems to use openvas because its free or free nessus
+#### Vulnerability Assessments 
+- Validate the results of the scan if they are true positives or false ones by trying them manualy
+### Passive 
+- Much Harder cause the lack to use tools and because we are not a public big company if agreed would use linked in for job related knowledge that past workers.
+- Maybe using a shodan script for the start point.
+- 
+
+### Resource Development
+- C2 communication
+### Initial Access
+### Network Propagation
+### Actions On Objectives
+- using TTPs to train our blue team detection and response, ensuring all works 
+ - after some time u start to stress them up and see how they are responding are they kicking me off the network eventually?
+ -  We will do a simulation technique means we will use any tools i can get my hands on.
+ - **Shell -** Every shell would use authentication. 
+   if using the web shell from open source project changing the code a bit so it wouldnt be easily signatured.
+
+## Closure
+### Report
+- Going to notice all actions and timestamp command and output and report
+- Time to detect 
+- Time to escalate 
+- Time to eradicate
+- Using the MITRE Navigator i will show all the ttps i used in the exercise 
+![[Pasted image 20251227101503.png]]
+ - In case i would be asked for Emulation of adversary i will include a profile in their report.
+ ![[Pasted image 20251227101936.png]]

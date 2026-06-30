@@ -1,0 +1,55 @@
+**Hunter.io** - helps find emails formating for phishing attacks
+**TRAM** - feed him report and he will extract the ttps that used there 
+
+![[Pasted image 20251227180537.png]]
+![[Pasted image 20251227181447.png]]
+![[Pasted image 20251227181823.png]]
+
+
+**Team Filtration** - Tool for password spraying and user discovery recommended by the instructor
+
+![[Pasted image 20251227233657.png]]
+
+- Daft-hack Msf spray office 365 spray and ADFS spray
+- Fireprox Tool - proxy to AWS getaway everytime u brute force the way in it going to rotate your ip with another ip in amazon (probably in same location to avoid the impossible travel alert)
+![[Pasted image 20251227235136.png]]
+
+![[Pasted image 20251227235507.png]]
+
+![[Pasted image 20251227235925.png]]
+![[Pasted image 20260115221412.png]]
+
+
+- ngrock - for tunneling can be blocked
+- ![[Pasted image 20260116224426.png]]
+- ![[Pasted image 20260116224520.png]]
+- ![[Pasted image 20260116224552.png]]
+- ![[Pasted image 20260116224609.png]]
+- ![[Pasted image 20260116224701.png]]
+- ![[Pasted image 20260116224707.png]]
+- Socat for forwarding regular traffic 
+  ![[Pasted image 20260116224740.png]]
+- support ipv6
+- socat for DNS & udp trafiic 
+- ![[Pasted image 20260117123806.png]]
+- ![[Pasted image 20260116224801.png]]
+- ![[Pasted image 20260116224802.png]]
+- ![[Pasted image 20260116224823.png]]
+- Windows Tool
+evil clippy from github outflank - makes the vba stomping  mentioned in part 13
+
+![[Pasted image 20260122201426.png]]
+
+![[Pasted image 20260122201519.png]]![[Pasted image 20260122202526.png]]
+![[Pasted image 20260124203219.png]]
+- Not recommend for regular use only for situational use.
+- ![[Pasted image 20260124203456.png]]
+- since sysmon all the wmic got id and logs. 
+- ![[Pasted image 20260124203755.png]]
+- ![[Pasted image 20260124203833.png]]
+- ![[Pasted image 20260124203905.png]]
+- **PowerView is extreamly powerful and has a smaller foothold than bloodhound**
+-  **InvokePrivEscCheck** -  Even Better than PowerUp or SharpUP 
+- ![[Pasted image 20260124223318.png]]
+![[Pasted image 20260124235825.png]]
+**ServifyThis - u give the tool a binary and he adds the api calls to make it a legit service**

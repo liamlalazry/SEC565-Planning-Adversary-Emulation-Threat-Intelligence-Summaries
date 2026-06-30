@@ -1,0 +1,41 @@
+![[Pasted image 20260126205222.png]]
+![[Pasted image 20260126205253.png]]![[Pasted image 20260126205534.png]]
+c/cpp malware dont need to face amsi protection.
+
+![[Pasted image 20260126222440.png]]
+- golang is hard to reverse engineering its obusfuction by default 
+- c# is the opposite 
+- depends on the system and your knowledge.
+- ![[Pasted image 20260126223010.png]]
+- Magic Unicorn - Open Source obfuscator
+- comilian - Powershell obfuscator
+- Invoke Obuscation -Powershell obfuscator
+- ConfuserX - C# obfuscator
+- Obfuscat - C# obfuscator
+- rufuscator - C# obfuscator
+- Invinsibility clock -C# obfuscator
+- llvm - hard but awesome c/cpp obfuscator
+- garble - golang obfuscator - Nightmare for reverse engineering
+- The more time obfuscator is out for long time the more chance it would be signatured by EDRs companies
+- ![[Pasted image 20260126223710.png]]
+- very depend about the specific edr u are up againt...
+- Elastic showed some rules so it can be leveraged for red teaming 
+- dynamic analysis is resource consuming - most of the tools checks for 5 - 50 seconds into the process life they are trying to find sus API calls.
+- ![[Pasted image 20260126224206.png]]
+- sleeping to bypass the initial scan...
+- encryption to hide the payload from scanners
+- ![[Pasted image 20260126224431.png]]
+- using assembly or weird api calls to bypass the edr
+- ![[Pasted image 20260126224623.png]]
+- ![[Pasted image 20260126224802.png]]
+- ![[Pasted image 20260126224813.png]]
+- ![[Pasted image 20260126225214.png]]
+- ![[Pasted image 20260126225338.png]]
+- ![[Pasted image 20260126225415.png]]
+- ![[Pasted image 20260127184712.png]]
+- ![[Pasted image 20260127184758.png]]
+- ![[Pasted image 20260127184833.png]]
+- ![[Pasted image 20260127185006.png]]
+- ![[Pasted image 20260127185048.png]]
+- [[Intro To Active Directory Part 19]]
+- 

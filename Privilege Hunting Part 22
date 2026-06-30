@@ -1,0 +1,21 @@
+![[Pasted image 20260201230250.png]]
+![[Pasted image 20260201230350.png]]
+![[Pasted image 20260201230530.png]]
+![[Pasted image 20260201230543.png]]
+- Net & Whoami is noisy preferable not to use them and use the api calls instead
+- ![[Pasted image 20260201230659.png]]
+- ![[Pasted image 20260201230711.png]]
+- both going to spawn event id 1 process creation which will get u caught 
+- ![[Pasted image 20260201230829.png]]
+- ![[Pasted image 20260201230948.png]]
+- ![[Pasted image 20260201231117.png]]
+- There is a GPO that only lets admins to rpc 
+- ![[Pasted image 20260201231238.png]]
+- ![[Pasted image 20260201231552.png]]
+- SharpSpray - remote C$ access with smb
+- CrackMapExec - can do the same
+- ![[Pasted image 20260201232042.png]]
+- ![[Pasted image 20260201232103.png]]
+- ![[Pasted image 20260201232134.png]]
+- ![[Pasted image 20260201232211.png]]
+- 
